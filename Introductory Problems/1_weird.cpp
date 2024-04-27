@@ -2,7 +2,8 @@
 using namespace std;
 int main()
 {
-	long long n ;
+	long long n ; // it is importantnt , as integer may overflow in case of large odd value
+
 	cin>>n;
 	while(n!=1)
 	{
